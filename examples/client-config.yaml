@@ -1,0 +1,72 @@
+# Example Client Configuration
+# This file shows how to configure a client for the GTM workflow suite.
+# Copy this to ./clients/{client-slug}/config.yaml and customize.
+
+# Client basics
+name: "Acme Field Services"
+slug: "acme-field-services"
+domain: "acmefieldservices.com"
+industry: "Field Service Management"
+
+# ICP (Ideal Customer Profile)
+icp:
+  verticals:
+    - "HVAC"
+    - "Plumbing"
+    - "Electrical"
+    - "Property Management"
+  company_size: "10-500 employees"
+  geography: "United States"
+  titles:
+    - "Operations Manager"
+    - "Field Service Director"
+    - "VP of Operations"
+    - "Owner"
+  pain_points:
+    - "Manual scheduling and dispatching"
+    - "No real-time field visibility"
+    - "Paper-based work orders"
+    - "Technician utilization under 60%"
+
+# Segments (from GTM strategy output)
+segments:
+  - name: "HVAC Companies"
+    description: "HVAC service companies with 20+ technicians"
+    priority: 1
+  - name: "Multi-trade Contractors"
+    description: "Companies offering multiple trade services"
+    priority: 2
+  - name: "Property Management"
+    description: "Property management companies with maintenance teams"
+    priority: 3
+
+# Offers (for campaign messaging)
+offers:
+  - name: "roi-calculator"
+    headline: "See how much you'd save with automated dispatch"
+    description: "Interactive ROI calculator showing labor savings"
+    priority: 1
+    cooldown_days: 30
+  - name: "case-study"
+    headline: "How [similar company] cut response time by 40%"
+    description: "Industry-specific case study"
+    priority: 2
+    cooldown_days: 45
+  - name: "audit"
+    headline: "Free field operations efficiency audit"
+    description: "15-minute diagnostic of current workflow"
+    priority: 3
+    cooldown_days: 60
+
+# Email platform settings
+email_platform:
+  workspace_id: "{your_workspace_id}"
+  daily_send_limit: 50
+  sender_count: 10
+  schedule: "weekdays 8am-5pm ET"
+
+# Enrichment settings
+enrichment:
+  method: "standard"  # "standard" for B2B, "local" for local businesses
+  verify_emails: true
+  include_phone: false
