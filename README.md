@@ -71,7 +71,7 @@ Each workflow lives in `workflows/XX-name/SKILL.md`. You can:
 
 ### Phase 2: Prospecting & Angles
 
-**05 - Situation Mining**: Infers what a prospect's world looks like from the inside - their daily frustrations, metrics they're judged by, political dynamics, and hidden constraints. Produces "worldview briefs" that power diagnostic (not promotional) outreach.
+**05 - Worldview Mining**: Infers what a prospect's world looks like from the inside - their daily frustrations, metrics they're judged by, political dynamics, and hidden constraints. Produces "worldview briefs" that power diagnostic (not promotional) outreach.
 
 **06 - Creative Angles**: Uses lateral thinking models to discover non-obvious outbound angles. Instead of "we do X" messaging, finds hidden signals (hiring patterns, tech migrations, regulatory changes) that create natural entry points. Includes reference files with thinking models and signal libraries.
 
