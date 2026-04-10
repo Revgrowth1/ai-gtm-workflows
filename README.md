@@ -148,4 +148,4 @@ MIT - use these however you want.
 
 ## Credits
 
-Built by [RevGrowth](https://revgrowth.ai). Message-Market Fit framework inspired by Kellen Casebeer's diagnostic selling methodology.
+Built by [RevGrowth](https://revgrowth.ai).
