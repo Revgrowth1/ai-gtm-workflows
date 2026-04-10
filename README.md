@@ -14,7 +14,7 @@ These workflows cover the full GTM lifecycle - from market research to campaign 
 | 03 | [ICP Scoring](workflows/03-icp-scoring/) | Score companies 0-100 against your ideal customer profile |
 | 04 | [GTM Strategy](workflows/04-gtm-strategy/) | Full pipeline: research, segments, personas, messaging, copy |
 | **Prospecting & Angles** | | |
-| 05 | [Situation Mining](workflows/05-situation-mining/) | Infer prospect worldview for diagnostic (not promotional) messaging |
+| 05 | [Worldview Mining](workflows/05-worldview-mining/) | Infer prospect worldview for diagnostic (not promotional) messaging |
 | 06 | [Creative Angles](workflows/06-creative-angles/) | Discover hidden outbound signals via lateral thinking models |
 | 07 | [Message-Market Fit](workflows/07-message-market-fit/) | MSPA framework for systematic message testing |
 | **List Building & Enrichment** | | |
